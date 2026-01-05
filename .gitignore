@@ -1,0 +1,71 @@
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.buildlog/
+.history
+.svn/
+
+# IntelliJ / Android Studio
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# VS Code
+.vscode/
+
+# Flutter / Dart
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+/build/
+
+# Android
+**/android/app/build.gradle.kts
+**/android/app/src/main/java/io/flutter/plugins/GeneratedPluginRegistrant.java
+**/android/app/src/main/kotlin/com/example/fiqah_salon/GeneratedPluginRegistrant.kt
+**/android/local.properties
+.gradle/
+**/android/.gradle/
+**/android/captures/
+**/android/gradlew
+**/android/gradlew.bat
+
+# iOS
+**/ios/Flutter/Generated.xcconfig
+**/ios/Flutter/flutter_export_environment.sh
+**/ios/Flutter/app.flx
+**/ios/Flutter/app.zip
+**/ios/Flutter/flutter_assets/
+**/ios/ServiceDefinitions.json
+**/ios/Runner/GeneratedPluginRegistrant.*
+**/ios/.generated/
+
+# CocoaPods (iOS dependencies)
+**/ios/Pods/
+**/ios/Podfile.lock
+
+# ---------------------------------
+# 🔒 SECURITY - DO NOT REMOVE THESE
+# ---------------------------------
+
+# Firebase Config (Optional: Ignore if this repo is public)
+# android/app/google-services.json
+# ios/Runner/GoogleService-Info.plist
+
+# Environment Variables
+.env
+
+# Android Signing Keys (CRITICAL)
+*.jks
+*.keystore
+key.properties
+
+# ---------------------------------

@@ -1,0 +1,67 @@
+{
+  "project_info": {
+    "project_number": "693144893178",
+    "project_id": "fiqahbookingapp-86ce9",
+    "storage_bucket": "fiqahbookingapp-86ce9.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:693144893178:android:f7722b63e49eba4f08bb43",
+        "android_client_info": {
+          "package_name": "com.example.serviceapplication01"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC2zBwsvV3SgXw6OxS5u_VEYP3puJm1SMM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:693144893178:android:cdad6ffca0487ab408bb43",
+        "android_client_info": {
+          "package_name": "com.fiqahbookingsalon"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC2zBwsvV3SgXw6OxS5u_VEYP3puJm1SMM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:693144893178:android:293b1b51057a3d1808bb43",
+        "android_client_info": {
+          "package_name": "com.fiqahsalonbooking"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC2zBwsvV3SgXw6OxS5u_VEYP3puJm1SMM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
