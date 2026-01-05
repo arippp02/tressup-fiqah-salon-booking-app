@@ -61,15 +61,6 @@ This project uses Flutter. Ensure you have the Flutter SDK installed.
     ```bash
     flutter run
     ```
-
----
-
-## 📸 Screenshots
-
-| Customer Booking | Admin Dashboard | Appointment History |
-|:---:|:---:|:---:|
-| *(Add Screenshot)* | *(Add Screenshot)* | *(Add Screenshot)* |
-
 ---
 
 ## 🔒 Security & Roles
