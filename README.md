@@ -32,6 +32,15 @@ The system consists of three integrated platforms:
 
 
 * Staff Operations Portal
+<img width="576" height="1280" alt="image" src="https://github.com/user-attachments/assets/0cbdf360-3f6d-442d-96dd-e4d2481b9e47" />
+<img width="576" height="1280" alt="image" src="https://github.com/user-attachments/assets/1fd987cf-1116-4356-a722-8b2dc4dda01b" />
+<img width="576" height="1280" alt="image" src="https://github.com/user-attachments/assets/332c1c6e-0cca-40b2-85b6-d685ea3a2cda" />
+<img width="576" height="1280" alt="image" src="https://github.com/user-attachments/assets/8a513d06-f971-4922-a0fd-3ccb017a5dfe" />
+<img width="576" height="1280" alt="image" src="https://github.com/user-attachments/assets/3ff1b53d-8aac-44c7-80f1-6a5423e1a7e6" />
+
+
+
+
 
 All connected to a central Firebase backend.
 
