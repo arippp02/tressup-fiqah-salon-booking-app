@@ -5,6 +5,7 @@
 ## 🚀 Features
 
 ### 👤 Customer App
+<img width="576" height="1280" alt="image" src="https://github.com/user-attachments/assets/21e2c799-15f2-4045-884c-f79c912d1acc" />
 * *Easy Booking:* Browse services, choose stylists, select dates/times, and book appointments instantly.
 * *Appointment History:* View Upcoming, Completed, and Cancelled bookings.
 * *Loyalty System:* Earn points for every RM spent and redeem them for discounts.
