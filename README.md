@@ -9,6 +9,12 @@ This project demonstrates real-world software engineering practices including ro
 ## 📱 Application Overview
 
 <img width="576" height="1280" alt="Customer App Screenshot" src="https://github.com/user-attachments/assets/21e2c799-15f2-4045-884c-f79c912d1acc" />
+<img width="576" height="1280" alt="image" src="https://github.com/user-attachments/assets/bac8ad4a-5819-4bdb-b26e-79e392434ddb" />
+<img width="576" height="1280" alt="image" src="https://github.com/user-attachments/assets/065cee47-bd8c-4ad1-aadf-1a6d2a919c7e" />
+<img width="576" height="1280" alt="image" src="https://github.com/user-attachments/assets/68910a72-2e37-4699-affc-a2df51e32e1f" />
+
+
+
 
 The system consists of three integrated platforms:
 
