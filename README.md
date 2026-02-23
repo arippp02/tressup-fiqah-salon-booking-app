@@ -19,6 +19,18 @@ The system consists of three integrated platforms:
 
 
 * Admin Management Dashboard
+<img width="576" height="1280" alt="image" src="https://github.com/user-attachments/assets/8c8c9bc7-d686-43f7-bb2e-a694ecd906da" />
+<img width="576" height="1280" alt="image" src="https://github.com/user-attachments/assets/b25737ea-f618-41a1-b79e-e881532043e0" />
+<img width="576" height="1280" alt="image" src="https://github.com/user-attachments/assets/32016d1b-5872-4cdd-bfb1-c7268b071928" />
+<img width="576" height="1280" alt="image" src="https://github.com/user-attachments/assets/caeb7fdf-c80a-4e92-a926-e4c6ed74714f" />
+<img width="576" height="1280" alt="image" src="https://github.com/user-attachments/assets/69338c47-1130-4923-9010-1d397278c420" />
+<img width="576" height="1280" alt="image" src="https://github.com/user-attachments/assets/684a1edf-29b6-4ba7-9287-2bff1697a002" />
+<img width="576" height="1280" alt="image" src="https://github.com/user-attachments/assets/fb32fd04-54a0-48e8-bb36-5228b75d4aa3" />
+
+
+
+
+
 * Staff Operations Portal
 
 All connected to a central Firebase backend.
