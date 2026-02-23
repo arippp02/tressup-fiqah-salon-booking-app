@@ -1,78 +1,137 @@
-# 💇‍♀️ TressUp - Smart Salon Booking App
+# 💇‍♀️ TressUp — Production-Ready Salon Booking System
 
-*TressUp* is a comprehensive mobile application designed for *Fiqah Beauty & Salon* to streamline appointment bookings, manage staff schedules, and enhance customer loyalty through a digital rewards system. Built with *Flutter* and *Firebase*.
+*TressUp* is a full-stack mobile application built for *Fiqah Beauty & Salon* to digitise appointment management, staff scheduling, and customer loyalty. The system replaces manual WhatsApp-based bookings with a structured, scalable solution powered by Flutter and Firebase.
 
-## 🚀 Features
+This project demonstrates real-world software engineering practices including role-based access control, cloud database design, asynchronous workflows, and push notification systems.
 
-### 👤 Customer App
-<img width="576" height="1280" alt="image" src="https://github.com/user-attachments/assets/21e2c799-15f2-4045-884c-f79c912d1acc" />
-* *Easy Booking:* Browse services, choose stylists, select dates/times, and book appointments instantly.
-* *Appointment History:* View Upcoming, Completed, and Cancelled bookings.
-* *Loyalty System:* Earn points for every RM spent and redeem them for discounts.
-* *Notifications:* Receive real-time updates on booking status (Approved, Rejected, Completed).
-* *Profile Management:* Edit personal details and view earned loyalty points.
+---
+
+## 📱 Application Overview
+
+<img width="576" height="1280" alt="Customer App Screenshot" src="https://github.com/user-attachments/assets/21e2c799-15f2-4045-884c-f79c912d1acc" />
+
+The system consists of three integrated platforms:
+
+* Customer Mobile App
+* Admin Management Dashboard
+* Staff Operations Portal
+
+All connected to a central Firebase backend.
+
+---
+
+## 🚀 Key Features
+
+### 👤 Customer Application
+
+* Book appointments with real-time availability
+* Select services, staff, and preferred timeslots
+* Track appointment status: Pending, Approved, Completed, Cancelled
+* Earn loyalty points based on spending
+* Redeem points for discounts
+* Receive real-time push notifications
+* Manage profile and appointment history
+
+---
 
 ### 🛠 Admin Dashboard
-* *Manage Appointments:* Approve, Reject, or Reschedule bookings.
-* *Finalize Payments:* Calculate totals, apply point discounts, and mark jobs as completed.
-* *Customer Database:* View customer profiles, booking history, and add private staff notes.
-* *Staff Management:* Manage staff accounts and roles.
-* *Business Insights:* View appointment trends and revenue.
+
+* Approve, reject, or reschedule bookings
+* Finalise payments and apply loyalty discounts
+* Manage customer records and internal notes
+* Manage staff accounts and permissions
+* Monitor appointment activity and revenue trends
+
+---
 
 ### ✂️ Staff Portal
-* *Schedule View:* See daily assigned tasks and upcoming appointments.
-* *Job Completion:* Mark services as done and calculate bills.
-* *Client Info:* View client preferences and notes before the appointment.
+
+* View daily schedules and assigned appointments
+* Access client history and service notes
+* Mark jobs as completed
+* Calculate billing totals
 
 ---
 
-## 📱 Tech Stack
+## 🧠 Engineering Highlights
 
-* *Framework:* Flutter (Dart)
-* *Backend:* Firebase (Firestore Database, Authentication, Cloud Storage)
-* *Notifications:* Firebase Cloud Messaging (FCM) & HTTP v1 API
+This project demonstrates practical implementation of:
 
----
-
-## 🛠️ Installation & Setup
-
-This project uses Flutter. Ensure you have the Flutter SDK installed.
-
-1.  **Clone the repository**
-    ```bash
-    git clone [https://github.com/arippp02/tressup-fiqah-salon-booking-app.git](https://github.com/arippp02/tressup-fiqah-salon-booking-app.git)
-    cd tressup-fiqah-salon-booking-app
-    ```
-
-2.  **Install Dependencies**
-    ```bash
-    flutter pub get
-    ```
-
-3.  **Firebase Configuration (Important)**
-    > ⚠️ **Note:** For security reasons, the Firebase configuration files and Service Account keys are **not** included in this public repository.
-    
-    To run this app, you must:
-    * Create a Firebase Project.
-    * Add `google-services.json` to `android/app/`.
-    * Add `GoogleService-Info.plist` to `ios/Runner/`.
-    * Add `assets/service_account.json` for notification capabilities.
-
-4.  **Run the App**
-    ```bash
-    flutter run
-    ```
----
-
-## 🔒 Security & Roles
-
-The app uses role-based access control stored in Firestore:
-* **`role: 'admin'`**: Full access to database and management tools.
-* **`role: 'staff'`**: Access to schedule and completion tools.
-* **`role: 'customer'`**: Access to booking interface only.
+* Role-based access control using Firestore
+* Real-time database synchronisation
+* Cloud-based authentication system
+* Event-driven push notification architecture (FCM HTTP v1)
+* Scalable NoSQL database design
+* Multi-role system architecture (admin, staff, customer)
+* Production-style project structure and state handling
 
 ---
 
-## 👤 Author
+## 🏗 Architecture
 
-*Arif* *Universiti Malaysia Sarawak (UNIMAS)* Developed for TMA3084 Sem 1 25/26: Software Engineering Lab project.
+**Frontend:**
+Flutter (Dart)
+
+**Backend:**
+Firebase
+
+* Firestore Database
+* Firebase Authentication
+* Cloud Storage
+
+**Notifications:**
+Firebase Cloud Messaging (FCM)
+
+---
+
+## 🔒 Security Implementation
+
+Role-based permissions enforced via Firestore:
+
+* admin → full system access
+* staff → appointment and schedule access
+* customer → booking access only
+
+Prevents unauthorised access to sensitive business data.
+
+---
+
+## 🛠 Installation
+
+```bash
+git clone https://github.com/arippp02/tressup-fiqah-salon-booking-app.git
+cd tressup-fiqah-salon-booking-app
+flutter pub get
+flutter run
+```
+
+Firebase configuration required (excluded for security).
+
+---
+
+## 🎯 Real-World Impact
+
+This system solves real operational problems:
+
+Before:
+
+* Manual booking via WhatsApp
+* Double bookings possible
+* No centralised records
+* No loyalty tracking
+
+After:
+
+* Structured booking system
+* Centralised database
+* Automated tracking
+* Improved operational efficiency
+
+---
+
+## 👨‍💻 Author
+
+Muhammad Arif bin Saji
+Software Engineering Student, Universiti Malaysia Sarawak (UNIMAS)
+
+Built as part of a real client-based Software Engineering project.
