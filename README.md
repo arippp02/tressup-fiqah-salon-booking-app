@@ -128,6 +128,7 @@ After:
 ## 👨‍💻 Author
 
 Muhammad Arif bin Saji
-Software Engineering Student, Universiti Malaysia Sarawak (UNIMAS)
+Software Engineering Student 
+Universiti Malaysia Sarawak (UNIMAS)
 
 Built as part of a real client-based Software Engineering project.
