@@ -105,19 +105,6 @@ Prevents unauthorised access to sensitive business data.
 
 ---
 
-## 🛠 Installation
-
-```bash
-git clone https://github.com/arippp02/tressup-fiqah-salon-booking-app.git
-cd tressup-fiqah-salon-booking-app
-flutter pub get
-flutter run
-```
-
-Firebase configuration required (excluded for security).
-
----
-
 ## 🎯 Real-World Impact
 
 This system solves real operational problems:
