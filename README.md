@@ -1,4 +1,4 @@
-# 💇‍♀️ TressUp — Production-Ready Salon Booking System
+# 💇‍♀️ TressUp – Smart Beauty & Salon Booking Application 
 
 *TressUp* is a full-stack mobile application built for *Fiqah Beauty & Salon* to digitise appointment management, staff scheduling, and customer loyalty. The system replaces manual WhatsApp-based bookings with a structured, scalable solution powered by Flutter and Firebase.
 
